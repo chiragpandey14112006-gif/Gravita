@@ -1,6 +1,36 @@
-# Gravita
-A "Theoretical Physics Sandbox" like Gravita has several powerful use cases: 
-Interactive Education: Complex physics concepts (like Quantum Levitation/Flux Pinning, Acoustic Standing Waves, or Spacetime Warp Drives) are very difficult to understand from a textbook. By giving users a sandbox where they can tweak the "Coolant Temperature" or "Magnetic Field Strength," they can intuitively see and feel how the physics respond in real-time. 
-Scientific Visualization: It provides a foundation for researchers or science communicators to build interactive 3D models for scientific literature, making data and theoretical concepts accessible to the public directly via a URL, without requiring any software installation. 
-Gamified Learning: Sandboxes like this form the basis of educational simulations where users are tasked with solving puzzles (e.g., "Adjust the acoustic frequencies to successfully levitate the particle"). 
-In short, it takes the heavy, complex math of theoretical physics and turns it into a visually stunning, interactive playground that anyone can access from their phone or laptop browser!
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

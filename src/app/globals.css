@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --color-void: #05060A;
+  --color-panel: #0B0E17;
+  --color-primary: #7CF2C6;
+  --color-secondary: #FF6B4A;
+  --color-warp: #B98CFF;
+}
+
+body {
+  background-color: var(--color-void);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
